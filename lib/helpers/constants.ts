@@ -96,7 +96,7 @@ const EVENT_TYPE = {
 
 //
 
-module.exports = {
+export {
   BASE,
   HOST,
   API_VERSION,

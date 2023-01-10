@@ -1,5 +1,5 @@
 {
-  "name": "coingecko-api",
+  "name": "redblow-coingecko-api-react",
   "version": "1.0.10",
   "description": "A Node.js wrapper for the CoinGecko API with no dependencies.",
   "main": "index.js",
@@ -30,6 +30,7 @@
   ],
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+    "mocha": "^6.2.2",
+    "axios": "^1.2.2"
   }
 }

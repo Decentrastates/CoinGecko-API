@@ -10,10 +10,7 @@
  * @property {number} code - The response status code
  * @property {object|*} data - The body data in json format from the request
  */
-const ReturnObject = (success, message, code, data) => {
-  return { success, message, code, data };
-};
 
-//
-
-module.exports = ReturnObject;
+export const ReturnObject = (success: boolean, message: string, code: number, data: object) => {
+    return { success, message, code, data };
+  };
